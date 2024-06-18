@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-body-tertiary">
+    <!-- Section 1: Top Navbar (Done) -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#home">
+                <img src="/img/croissant.svg" alt="My Portfolio" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                ~ Rifqi's Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#tools">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#experiences">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-light btn-outline-dark" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Section 1: Top Navbar -->
+    <!-- Section 2: Hero (Done) -->
+    <div class="container-fluid p-5 mt-5 bg-success bg-gradient text-white" id="home">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-sm-6">
+                <div
+                    class="pt-3 ps-3 pe-3 text-primary-emphasis bg-success-subtle border border-success-subtle rounded-4">
+                    <p class="fs-1 fw-bold text-success">I'm Rifqi Rachmanda Eryawan.</p>
+                </div>
+                <p class="pt-4 fs-2 fw-semibold">Software Engineer based in Indonesia.</p>
+                <p class="fs-6 fw-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur corrupti
+                    assumenda praesentium iure deleniti officiis, ipsum sit neque, vel perspiciatis ab temporibus! Ullam
+                    maiores illum quos dolor, ducimus ea iusto.</p>
+                <br>
+                <button type="button" class="btn btn-light btn-outline-dark btn-lg mb-4">View My Portfolio</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img draggable="false" src="/img/hero-picture.svg" class="img-fluid" alt="hero">
+            </div>
+        </div>
+    </div>
+    <!-- End Section 2: Hero -->
+    <!-- Section 3: Short Summary -->
+    <div class="container p-5" id="about">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-6 mx-auto mb-4 align-items-center">
+                <img draggable="false" src="img/profile.jpg" width="400px" height="400px"
+                    class="img-thumbnail rounded-circle" alt="profile_image">
+            </div>
+            <div class="col-lg-6 col-sm-12 mx-auto">
+                <p class="fs-2 fw-semibold">Who is Rifqi?</p>
+                <p class="fs-6 fw-normal">I attended university in Cikarang majoring in Information Technology and
+                    graduated in 2022. Before doing my final project, I had done an internship in a financing company
+                    that mainly provides the service to start-ups and SMEs.
+                </p>
+                <p class="fs-6 fw-normal">I had the opportunity to work on several IT-related projects during
+                    internship, which allowed me to develop skills in business process, problem solving, teamwork, and
+                    communication. During the current training in Enigma Camp, I learned about tools and frameworks
+                    that can be useful in the future.</p>
+                <button type="button" class="btn btn-light btn-outline-dark btn-lg mt-4">View My Portfolio</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Section 3: Short Summary -->
+    <!-- Section 4: Languages List -->
+    <div class="container-fluid p-5 bg-body align-items-center" id="tools">
+        <div class="container">
+            <div class="row justify-content-center">
+                <p class="fs-2 fw-semibold text-center">Exploring the Tools</p>
+                <p class="fs-6 fw-normal text-center mb-5">These are some of the programming languages and frameworks
+                    that were
+                    previously used on all projects.
+                </p>
+                <div class="col-6 col-md-4 col-lg-2 skill-card">
+                    <div class=" bg-light">
+                        <img draggable="false" src="img/icon-java.svg" alt="Java">
+                    </div>
+                    <div>Java</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 skill-card">
+                    <div class=" bg-light">
+                        <img draggable="false" src="img/icon-spring-boot.svg" alt="Spring Boot">
+                    </div>
+                    <div>Spring Boot</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 skill-card">
+                    <div class=" bg-light">
+                        <img draggable="false" src="img/icon-postgresql.svg" alt="PostgreSQL">
+                    </div>
+                    <div>PostgreSQL</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 skill-card">
+                    <div class=" bg-light">
+                        <img draggable="false" src="img/icon-docker.svg" alt="Docker">
+                    </div>
+                    <div>Docker</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 skill-card">
+                    <div class=" bg-light">
+                        <img draggable="false" src="img/icon-javascript.svg" alt="JavaScript">
+                    </div>
+                    <div>JavaScript</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 skill-card">
+                    <div class=" bg-light">
+                        <img draggable="false" src="img/icon-flutter.svg" alt="Flutter">
+                    </div>
+                    <div>Flutter</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section 4: Languages List -->
+    <!-- Section 5: My Projects -->
+    <p class="fs-2 fw-semibold text-center pt-5" id="projects">My Latest Projects</p>
+    <p class="fs-6 fw-normal text-center pb-4">Ranging from mobile application to backend services.
+    </p>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 px-5 pb-5">
+        <div class="col">
+            <div class="card">
+                <div class="ratio ratio-1x1"><img draggable="false" src="img/project01.jpg" class="card-img-top"
+                        alt="muslimatch"></div>
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold">Flutter Application</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum neque rerum eaque
+                        maiores optio laborum eveniet voluptatum fugiat ipsum adipisci.</p>
+                    <button type="button" class="btn btn-outline-dark">Learn more...</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="ratio ratio-1x1"><img draggable="false" src="img/project03.jpg" class="card-img-top"
+                        alt="restaurant"></div>
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold">Restaurant API</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, vel rerum?
+                        Deserunt culpa accusamus repudiandae quae veritatis reiciendis quis in!</p>
+                    <button type="button" class="btn btn-outline-dark">Learn more...</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="ratio ratio-1x1"><img draggable="false" src="img/project04.jpg" class="card-img-top"
+                        alt="warehouse"></div>
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold">Warehouse API</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi enim dolore
+                        deleniti optio aliquam, velit tempore commodi vitae. Debitis, error!</p>
+                    <button type="button" class="btn btn-outline-dark">Learn more...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section 5: My Projects -->
+    <!-- Section 6: My Experiences -->
+    <div class="container-fluid p-5 bg-success bg-body" id="experiences">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img draggable="false" src="/img/experience-picture.svg" class="img-fluid" alt="experiences">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <p class="fs-2 fw-semibold pb-2">My Academic and Professional Journey</p>
+                <div class="accordion" id="experienceAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Work Experience
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#experienceAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-5 fw-semibold">PT Astra Mitra Ventura, Jakarta, Indonesia</p>
+                                <p class="fs-6 fst-italic">SOP & IT Operation Intern (May 2021-Jan 2022)</p>
+                                <ul>
+                                    <li>Doing the administrative processes and documenting SOPs related to the IT System
+                                    </li>
+                                    <li>Conducting IT-related service procurements in accordance with company needs</li>
+                                    <li>Doing maintenance of company's devices, such as managing installation, updates
+                                        and backups</li>
+                                    <li>Resolving IT support requests from employees and doing troubleshooting work</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Educational History
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-5 fw-semibold">President University, Cikarang, Indonesia</p>
+                                <p class="fs-6 fst-italic">Information Technology Major (2017-2022)</p>
+                                <ul>
+                                    <li>GPA: 3,16</li>
+                                    <li>Active in faculty organization for 2 years as a Secretary (Part of BOD)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Training and Certifications
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#experienceAccordion">
+                            <div class="accordion-body">
+                                <p class="fs-5 fw-semibold">Enigma Camp, Jakarta, Indonesia</p>
+                                <p class="fs-6 fst-italic">Information Technology Trainee (2024-present)</p>
+                                <ul>
+                                    <li>Developed a deep understanding of back-end and front-end development,
+                                        successfully collaborating with team members to achieve project targets.</li>
+                                    <li>Built a fully functional API, including seamless database integration and
+                                        deployment.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section 6: My Experiences -->
+    <!-- Section 7: Contact -->
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4" id="contact">
+        <div class="container">
+            <div class="row">
+                <p class="fs-2 fw-semibold text-center py-3" id="projects">Let's Connect</p>
+                <div class="col-md-4 mb-3">
+                    <h5>Address</h5>
+                    <p>Enigma Camp (Trainee Dormitory)</p>
+                    <p>Jl. Melati no. 59, Kel. Ragunan, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12550</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Us</h5>
+                    <p><a href="mailto:rifqi30rachmanda.com" class="text-white">rifqi30rachmanda@gmail.com</a><br><a
+                            href="tel:+6285155307872" class="text-white">+62 851 5530 7872</a></p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Follow Us</h5>
+                    <a href="https://www.instagram.com/fjellheisen" class="text-white me-3">Instagram</a>
+                    <a href="https://www.linkedin.com/in/rifqire" class="text-white me-3">LinkedIn</a>
+                    <a href="https://github.com/rifqire" class="text-white me-3">GitHub</a>
+                    <a href="https://git.enigmacamp.com" class="text-white me-3">GitLab</a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" class="text-white">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Section 7: Contact -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
